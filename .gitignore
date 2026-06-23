@@ -1,0 +1,51 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnp.*
+
+# React Native
+*.jsbundle
+/ios/build/
+/android/build/
+/android/app/build/
+/ios/Pods/
+/ios/DerivedData/
+/ios/.xcode.env.local
+*.xcarchive
+/android/.gradle
+/android/local.properties
+
+# Expo (not used, but safe to include)
+.expo/
+dist/
+
+# Vite / Build outputs
+dealer-web/dist/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
